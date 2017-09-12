@@ -11,7 +11,7 @@ figure {
   padding: 0;  /*-- removes padding from figures --*/
 }
 img {
-  width: 100%;  /*-- makes all images responsive --*/
+  width: 100%;  /*-- sets width of all images to be the size of their container --*/
 }
 a {
   color:blue;  /*-- sets all link colors --*/
@@ -57,15 +57,16 @@ footer {
 }
 /*-- DOCUMENT STYLES --*/
 .container {
-  display: flex; /*-- sets grid container display to flex --*/
+  display: flex; /*-- sets container display to flex --*/
   flex-wrap: wrap;  /*-- allows flex item children to wrap --*/
   flex-direction: row;  /*-- arranges flex item children in a row --*/
 }
 .cards-item {
-  display: flex;  /*-- sets card container display to flex --*/
+  display: flex;  /*-- sets card display to flex --*/
   flex-direction: column;  /*-- arranges flex item children in a column --*/
   padding: 2rem .5rem;  /*-- bigger padding top and bottom, a little left and right --*/
 }
+/*-- MEDIA QUERIES FOR RESPONSIVE DESIGN --*/
 @media screen and (min-width: 550px) {  /*-- for screens above 550px  --*/
   .cards-item {width: 50%;} /*-- sets card width to half of the page --*/
 }
@@ -76,7 +77,7 @@ footer {
   .cards-item {width: 25%;} /*-- sets card width to one-quarter of the page --*/
 }
 .card {
-  border: 1px solid #dadada;
+  border: 1px solid #dadada; /*-- adds a border around card items --*/
 }
 .card-image { /*-- general styles for card images --*/
   background-size: cover;  /*-- sets images size to cover --*/
