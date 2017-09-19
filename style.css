@@ -6,19 +6,6 @@ body {
   margin: 0 auto;  /*-- centers the whole body --*/
   font-family: 'Montserrat', sans-serif;  /*-- sets font and fallback --*/
 }
-figure {
-  margin: 0 0 1em 0;  /*-- adds bottom margin to figures --*/
-  padding: 0;  /*-- removes padding from figures --*/
-}
-img {
-  width: 100%;  /*-- sets width of all images to be the size of their container --*/
-}
-a {
-  color:blue;  /*-- sets all link colors --*/
-}
-a:hover, a:visited {
-  color:purple;  /*-- sets all links colors when hover or visited --*/
-}
 nav {
   border: 1px solid #333;  /*-- adds a border to nav --*/
   margin-bottom: 4em;  /*-- adds big bottom margin --*/
