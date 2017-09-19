@@ -105,15 +105,39 @@ footer {
   padding: .5rem;  /*-- a little internal space --*/
 }
 /*-- IMAGE BACKGROUNDS --*/
-.fence {
-  background-image: url('https://unsplash.it/800/600/?image=705');
+.random1 {
+  background-image: url('https://unsplash.it/800/600/?image=71');
 }
-.flowers {
-  background-image: url('https://unsplash.it/800/600/?image=1003');
+.random2 {
+  background-image: url('https://unsplash.it/800/600/?image=81');
 }
-.record {
-  background-image: url('https://unsplash.it/800/600/?image=100');
+.random3 {
+  background-image: url('https://unsplash.it/800/600/?image=91');
 }
-.river {
+.random4 {
   background-image: url('https://unsplash.it/800/600/?image=63');
+}
+.random5 {
+  background-image: url('https://unsplash.it/800/600/?image=99');
+}
+.random6 {
+  background-image: url('https://unsplash.it/800/600/?image=88');
+}
+.random7 {
+  background-image: url('https://unsplash.it/800/600/?image=77');
+}
+.random8 {
+  background-image: url('https://unsplash.it/800/600/?image=66');
+}
+.random9 {
+  background-image: url('https://unsplash.it/800/600/?image=55');
+}
+.random10 {
+  background-image: url('https://unsplash.it/800/600/?image=11');
+}
+.random11 {
+  background-image: url('https://unsplash.it/800/600/?image=33');
+}
+.random12 {
+  background-image: url('https://unsplash.it/800/600/?image=22');
 }
